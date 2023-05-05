@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as anm
 import matplotlib
 
-matplotlib.use("nbagg")  # jupyter用の設定
+# matplotlib.use("nbagg")  # jupyter用の設定
+matplotlib.use("TkAgg")  # Python
 
 
 class World:
